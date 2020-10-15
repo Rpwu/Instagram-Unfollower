@@ -8,3 +8,5 @@ Requirements: Python 3 or later, chromedriver
 Link to download chromedriver: https://chromedriver.chromium.org/
 
 To connect chromdriver with the bot, simply edit line 21 (self.browser = webdriver.Chrome()) to include the path of where chromedriver.exe is located. For example, webdriver.Chrome("path here"). Alternatively, can move/download chromedriver.exe directly to where the bot is located, eliminating the requirement of including the path.
+
+Put instagram username and password into a secrets.py file and import it directly to InstaGhostBuster.py
